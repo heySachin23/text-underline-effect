@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+}
+
+.container {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.heading {
+  font-size: 10vh;
+  font-family: "Roboto Slab", serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subheading {
+  font-size: 5vh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  text-align: justify;
+}
+
+.underline-effect {
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-size: 100% 8%;
+  background-repeat: no-repeat;
+  background-position: 0 88%;
+  transition: all 0.25s ease-in;
+  color: white;
+}
+
+.underline-effect:hover {
+  background-size: 100% 90%;
+  color: black;
+}
